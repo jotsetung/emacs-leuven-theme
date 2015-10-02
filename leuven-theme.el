@@ -2,7 +2,8 @@
 
 ;; Copyright (C) 2003-2015 Free Software Foundation, Inc.
 
-;; Author: Fabrice Niessen <(concat "fniessen" at-sign "pirilampo.org")>
+;; Author: Fabrice Niessen <(concat "fniessen" at-sign "pirilampo.org")> with
+;;        some minor changes by Johannes Rainer <(concat "johannes.rainer" at-sign "gmail.com")>
 ;; URL: https://github.com/fniessen/emacs-leuven-theme
 ;; Version: 20150922.2000
 ;; Keywords: color theme
@@ -92,7 +93,7 @@ more...")
 
   (custom-theme-set-faces
    'leuven
-   `(default ((,class (:foreground "#333333" :background "#FFFFFF"))))
+   `(default ((,class (:foreground "#333333" :background "#FFFFED"))))
    `(bold ((,class (:weight bold :foreground "black"))))
    `(bold-italic ((,class (:weight bold :slant italic :foreground "black"))))
    `(italic ((,class (:slant italic :foreground "#1A1A1A"))))
@@ -335,7 +336,7 @@ more...")
    `(circe-originator-face ((,class (:foreground "blue"))))
    `(circe-prompt-face ((,class (:foreground "red"))))
    `(circe-server-face ((,class (:foreground "#99CAE5"))))
-   `(comint-highlight-input ((,class (:weight bold :foreground "#0000FF" :inherit nil))))
+   `(comint-highlight-input ((,class (:weight bold :foreground "#333333" :inherit nil))))
    ;; `(comint-highlight-prompt ((,class (:weight bold :foreground "black" :background "gold"))))
    `(comint-highlight-prompt ((,class (:weight bold :foreground "#0000FF" :inherit nil))))
 

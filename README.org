@@ -1,5 +1,5 @@
-#+TITLE:     Leuven-theme
-#+AUTHOR:    Fabrice Niessen
+#+TITLE:     Slightly modified Leuven-theme
+#+AUTHOR:    Fabrice Niessen, Johannes Rainer
 #+EMAIL:     (concat "fniessen" at-sign "pirilampo.org")
 #+DESCRIPTION: Emacs custom color theme for light background
 #+KEYWORDS:  emacs, leuven, custom theme, color theme, faces, melpa
@@ -8,6 +8,9 @@
 #+SETUPFILE: ~/src/org-style/setup/bigblow-pirilampo.setup
 
 #+PROPERTY:  header-args :eval no
+
+This theme is a slightly modified version of the original Leuven theme by
+fniessen.
 
 [[http://opensource.org/licenses/GPL-3.0][http://img.shields.io/:license-gpl-blue.svg]]
 [[http://melpa.org/#/leuven-theme][http://melpa.org/packages/leuven-theme-badge.svg]]
